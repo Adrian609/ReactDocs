@@ -32,6 +32,7 @@ body {
     padding: 0;
     text-align: center;
     width: 34px;
+    position: static;
   }
   
   .square:focus {
@@ -45,9 +46,14 @@ body {
   .game {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25%;
+    position: static;
   }
   
   .game-info {
     margin-left: 20px;
+    position: static;
   }
   
